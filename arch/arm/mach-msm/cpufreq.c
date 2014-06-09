@@ -46,7 +46,7 @@ static struct workqueue_struct *msm_cpufreq_wq;
 
 #ifdef CONFIG_MSM_SLEEPER
 uint32_t maxscroff_freq = 729600;
-uint32_t maxscroff = 0; 
+uint32_t maxscroff = 1; 
 #endif /* MSM_SLEEPER */
 
 struct cpufreq_suspend_t {
